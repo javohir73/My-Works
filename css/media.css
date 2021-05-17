@@ -1,0 +1,28 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --body: #151437;
+        --text: #fff;
+        --dots: #ebebeb;
+        
+        --footer-link:#fff;
+       
+    }
+    
+    .logo::before {
+        content: url(../img/svg/logo-dark.svg);
+    }
+}
+
+
+@media (max-width: 1140px) {
+    .work::before{
+        display: none;
+    }
+}
+
+@media (max-width: 684px) {
+    .work__text {
+        top: 0;
+        left: 30%;
+    }
+}
